@@ -263,7 +263,7 @@ fn stats(db: &Database) -> Result<()> {
 fn catalog(limit: usize) -> Result<()> {
     let store = SeedStore::load()?;
     let mut all: Vec<&Character> = store.all().iter().collect();
-    all.sort_by(|a, b| b.popularity.unwrap_or(0).cmp(&a.popularity.unwrap_or(0)));
+    all.sort_by_key(|c| std::cmp::Reverse(c.popularity.unwrap_or(0)));
     println!(
         "{}",
         format!("Candidate catalog ({})", store.all().len()).bold()
