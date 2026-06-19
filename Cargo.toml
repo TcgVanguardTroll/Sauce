@@ -1,0 +1,36 @@
+[package]
+name = "sauce"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jordan Grant <jordangrant46@gmail.com>"]
+description = "A privacy-first CLI recommendation engine for discovering anime characters you'll love"
+license = "MIT"
+repository = "https://github.com/TcgVanguardTroll/Sauce"
+keywords = ["recommendation", "cli", "anime", "similarity", "clustering"]
+categories = ["command-line-utilities", "algorithms"]
+
+[lib]
+name = "sauce"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sauce"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive", "cargo"] }
+colored = "2.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rusqlite = { version = "0.31", features = ["bundled"] }
+reqwest = { version = "0.11", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+anyhow = "1.0"
+dirs = "5.0"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

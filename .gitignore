@@ -1,0 +1,13 @@
+/target
+**/*.rs.bk
+Cargo.lock.orig
+
+# Python sidecar
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS noise
+.DS_Store
+Thumbs.db
