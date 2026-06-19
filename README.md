@@ -2,6 +2,7 @@
 
 > A privacy-first CLI recommendation engine for discovering anime characters you'll love — built in Rust, powered by [AniList](https://anilist.co), with optional character-art visual similarity.
 
+[![CI](https://github.com/TcgVanguardTroll/Sauce/actions/workflows/ci.yml/badge.svg)](https://github.com/TcgVanguardTroll/Sauce/actions/workflows/ci.yml)
 ![Rust](https://img.shields.io/badge/Rust-stable-orange?logo=rust)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Local First](https://img.shields.io/badge/data-local--first-green)
@@ -12,6 +13,21 @@
 > 📐 See [DESIGN.md](DESIGN.md) for the architecture, data model, and algorithm diagrams.
 
 It ships with a curated **catalog** of well-known characters baked into the binary, so it works fully offline out of the box — no API key required.
+
+---
+
+## Demo
+
+Build a library, then ask Sauce what to watch next — these are real, unedited
+outputs (regenerate with `python3 docs/gen_screenshots.py`):
+
+| `sauce profile` | `sauce recommend` |
+|:--:|:--:|
+| ![sauce profile](docs/profile.svg) | ![sauce recommend](docs/recommend.svg) |
+
+| `sauce clusters` | `sauce find --vibe-like "Levi Ackerman"` |
+|:--:|:--:|
+| ![sauce clusters](docs/clusters.svg) | ![sauce find](docs/find.svg) |
 
 ---
 
@@ -95,19 +111,7 @@ sauce recommend
 sauce find --vibe-like "Levi Ackerman"
 ```
 
-```
-Your Taste Profile
-══════════════════════════════════════════
-  Based on 4 favourites
-
-  ├── Tsundere 3/4  75%
-  │   ├── Red 2/3  67%
-  │   │   └── Blue 2/2  100%
-  │   └── Brown 1/3  33%
-  └── Kuudere 1/4  25%
-
-  Your type: Tsundere → Red → Blue
-```
+See the [Demo](#demo) above for what these print.
 
 ---
 
@@ -243,8 +247,14 @@ Nothing leaves your machine except outbound calls to AniList when you explicitly
 ```bash
 cargo test       # 24 unit + integration tests
 cargo clippy --all-targets -- -D warnings
+cargo fmt --all -- --check
 cargo run -- profile
+
+python3 docs/gen_screenshots.py   # regenerate the README screenshots
 ```
+
+[GitHub Actions CI](.github/workflows/ci.yml) runs `fmt` + `clippy` on every
+push/PR and the test suite + release build across **Linux, macOS, and Windows**.
 
 ## License
 

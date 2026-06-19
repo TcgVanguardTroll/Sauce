@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="728" viewBox="0 0 393 728" font-family="ui-monospace, 'SF Mono', 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="13.5">
+<rect width="393" height="728" rx="8" fill="#0d1117"/>
+<rect width="393" height="36" rx="8" fill="#161b22"/>
+<rect y="28" width="393" height="8" fill="#161b22"/>
+<circle cx="18" cy="18" r="6" fill="#ff5f56"/>
+<circle cx="38" cy="18" r="6" fill="#ffbd2e"/>
+<circle cx="58" cy="18" r="6" fill="#27c93f"/>
+<text x="197" y="22" fill="#8b949e" font-size="12" text-anchor="middle">sauce profile</text>
+<text x="16" y="56.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9" font-weight="bold">Your Taste Profile</tspan>
+</text>
+<text x="16" y="76.0" xml:space="preserve">
+<tspan x="16.0" fill="#6e7681">══════════════════════════════════════════</tspan>
+</text>
+<text x="16" y="96.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  Based on 6 favourites</tspan>
+</text>
+<text x="16" y="116.0" xml:space="preserve">
+</text>
+<text x="16" y="136.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  ├── Tsundere 3/6  50%</tspan>
+</text>
+<text x="16" y="156.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   ├── Black 1/3  33%</tspan>
+</text>
+<text x="16" y="176.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │   └── Aqua 1/1  100%</tspan>
+</text>
+<text x="16" y="196.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │       └── 15-17 1/1  100%</tspan>
+</text>
+<text x="16" y="216.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │           └── Supporting 1/1  100%</tspan>
+</text>
+<text x="16" y="236.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   ├── Brown 1/3  33%</tspan>
+</text>
+<text x="16" y="256.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │   └── Brown 1/1  100%</tspan>
+</text>
+<text x="16" y="276.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │       └── 18-24 1/1  100%</tspan>
+</text>
+<text x="16" y="296.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │           └── Protagonist 1/1  100%</tspan>
+</text>
+<text x="16" y="316.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   └── Red 1/3  33%</tspan>
+</text>
+<text x="16" y="336.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │       └── Blue 1/1  100%</tspan>
+</text>
+<text x="16" y="356.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │           └── 18-24 1/1  100%</tspan>
+</text>
+<text x="16" y="376.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │               └── Supporting 1/1  100%</tspan>
+</text>
+<text x="16" y="396.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  ├── Kuudere 2/6  33%</tspan>
+</text>
+<text x="16" y="416.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   ├── Blue 1/2  50%</tspan>
+</text>
+<text x="16" y="436.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │   └── Red 1/1  100%</tspan>
+</text>
+<text x="16" y="456.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │       └── 0-14 1/1  100%</tspan>
+</text>
+<text x="16" y="476.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   │           └── Supporting 1/1  100%</tspan>
+</text>
+<text x="16" y="496.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │   └── Purple 1/2  50%</tspan>
+</text>
+<text x="16" y="516.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │       └── Brown 1/1  100%</tspan>
+</text>
+<text x="16" y="536.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │           └── 15-17 1/1  100%</tspan>
+</text>
+<text x="16" y="556.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  │               └── Supporting 1/1  100%</tspan>
+</text>
+<text x="16" y="576.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  └── Stoic 1/6  17%</tspan>
+</text>
+<text x="16" y="596.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">      └── Black 1/1  100%</tspan>
+</text>
+<text x="16" y="616.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">          └── Grey 1/1  100%</tspan>
+</text>
+<text x="16" y="636.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">              └── 25-34 1/1  100%</tspan>
+</text>
+<text x="16" y="656.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">                  └── Supporting 1/1  100%</tspan>
+</text>
+<text x="16" y="676.0" xml:space="preserve">
+</text>
+<text x="16" y="696.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  </tspan>
+<tspan x="32.8" fill="#6e7681">Your type:</tspan>
+<tspan x="116.8" fill="#c9d1d9"> </tspan>
+<tspan x="125.2" fill="#56d4dd" font-weight="bold">Tsundere</tspan>
+</text>
+</svg>

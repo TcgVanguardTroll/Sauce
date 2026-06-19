@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="855" height="288" viewBox="0 0 855 288" font-family="ui-monospace, 'SF Mono', 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="13.5">
+<rect width="855" height="288" rx="8" fill="#0d1117"/>
+<rect width="855" height="36" rx="8" fill="#161b22"/>
+<rect y="28" width="855" height="8" fill="#161b22"/>
+<circle cx="18" cy="18" r="6" fill="#ff5f56"/>
+<circle cx="38" cy="18" r="6" fill="#ffbd2e"/>
+<circle cx="58" cy="18" r="6" fill="#27c93f"/>
+<text x="428" y="22" fill="#8b949e" font-size="12" text-anchor="middle">sauce clusters</text>
+<text x="16" y="56.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9" font-weight="bold">Your taste clusters (k=2)</tspan>
+</text>
+<text x="16" y="76.0" xml:space="preserve">
+</text>
+<text x="16" y="96.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  </tspan>
+<tspan x="32.8" fill="#56d4dd">▸</tspan>
+<tspan x="41.2" fill="#c9d1d9"> </tspan>
+<tspan x="49.6" fill="#56d4dd" font-weight="bold">Kuudere · Supporting · Black</tspan>
+</text>
+<text x="16" y="116.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">      Kurisu Makise  </tspan>
+<tspan x="192.4" fill="#6e7681">Tsundere, Supporting, Red hair, Blue eyes, Steins;Gate</tspan>
+</text>
+<text x="16" y="136.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">      Levi Ackerman  </tspan>
+<tspan x="192.4" fill="#6e7681">Stoic, Supporting, Black hair, Grey eyes, Attack on Titan</tspan>
+</text>
+<text x="16" y="156.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">      Rei Ayanami  </tspan>
+<tspan x="175.6" fill="#6e7681">Kuudere, Supporting, Blue hair, Red eyes, Neon Genesis Evangelion</tspan>
+</text>
+<text x="16" y="176.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">      Rin Tohsaka  </tspan>
+<tspan x="175.6" fill="#6e7681">Tsundere, Supporting, Black hair, Aqua eyes, Fate/stay night</tspan>
+</text>
+<text x="16" y="196.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">      Yuki Nagato  </tspan>
+<tspan x="175.6" fill="#6e7681">Kuudere, Supporting, Purple hair, Brown eyes, The Melancholy of Haruhi Suzumiya</tspan>
+</text>
+<text x="16" y="216.0" xml:space="preserve">
+</text>
+<text x="16" y="236.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">  </tspan>
+<tspan x="32.8" fill="#56d4dd">▸</tspan>
+<tspan x="41.2" fill="#c9d1d9"> </tspan>
+<tspan x="49.6" fill="#56d4dd" font-weight="bold">Tsundere · Protagonist · Brown</tspan>
+</text>
+<text x="16" y="256.0" xml:space="preserve">
+<tspan x="16.0" fill="#c9d1d9">      Taiga Aisaka  </tspan>
+<tspan x="184.0" fill="#6e7681">Tsundere, Protagonist, Brown hair, Brown eyes, Toradora!</tspan>
+</text>
+</svg>
