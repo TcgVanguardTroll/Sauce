@@ -7,6 +7,10 @@ on:
 
 env:
   CARGO_TERM_COLOR: always
+  # Harden against transient crates.io download flakes, especially the
+  # Windows/schannel "missing close_notify" HTTP/2 error.
+  CARGO_NET_RETRY: "10"
+  CARGO_HTTP_MULTIPLEXING: "false"
 
 jobs:
   lint:
